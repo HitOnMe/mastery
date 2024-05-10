@@ -1,0 +1,316 @@
+
+/* set body's styles */
+* {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-variation-settings:
+    "wdth" 100;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 120%
+} /* done */
+
+/* clear function */
+.clear {
+    clear: both;
+} /* done */
+
+/* set body's buttons */
+.button {
+    background-color: #e9c93d;
+    font-weight: 750;
+    font-size: 110%;
+    padding: 2.5% 5%;
+    border: none;
+    border-radius: 5%
+} /* done */
+
+
+/* set width's element */
+.width__100 {
+    width: 100%
+}
+.width__90{
+    width:90%;
+}
+.width__80 {
+    width: 80%;
+    margin: auto
+}
+.width__50{
+    width: 50%
+}
+.width__40 {
+    width: 40%
+}
+.width__35 {
+    width: 35%;
+}
+.width__25{
+    width: 25%
+}/* done */
+
+/* set display */
+.display__1{
+    float: left;
+}
+.display__2 {
+    display: inline-block;
+}/* done */
+
+/* set background color */
+.bg__white {
+    background-color: white
+}
+.bg__gray {
+    background-color: rgb(246,246,246)
+}
+.bg__green{
+    background-color:#002146; 
+}
+.bg__yellow{
+    background-color: #e9c93d;
+}
+
+/* set border radius */
+.border__50 {
+    border-radius: 50%
+}
+.border__5 {
+    border-radius: 5%
+}
+.border__3 {
+    border-radius: 3%
+}/* done */
+
+/* clear list style */
+.none_list{
+    list-style: none;
+    text-decoration: none;
+}/* done */
+
+/* create post's calendar div image */
+.block {
+    margin: auto;
+    padding: 0 5% 5% 0;
+}
+.block__content{
+    background-color: #e9c93d;
+    text-align: center;
+    border-radius: 5%;
+}
+.day {
+    padding-top: 10px;
+    font-size: 35px;
+    font-weight: 800;
+}
+.month{
+    font-weight: bold;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+.year {
+    background-color:#002146;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0 0 10% 10%;
+} /* done */
+
+/* head */
+.head{
+    padding-top: 1%
+}
+.header i{
+    float: left;
+    color: #ceb441;
+    font-size: 15px;
+    padding: 1% 1%;
+}
+.header span{
+    font-size: 30px;
+    padding: 0 1%; 
+    font-weight: bold;
+}
+
+.head ul{
+    list-style: none; 
+    margin: 0 0 1%;
+    padding: 1% 0.5%;
+}
+.head li{
+    display: inline-block;
+    margin: 0 15px;
+    
+}
+.head li a{
+    padding-left: 15px;
+}/* done */
+
+
+/* intro */
+
+.intro {
+    margin-top: 5%;
+}
+
+.intro button{
+    margin-top: 5%;
+}
+.intro h2{
+    padding-bottom: 5%;
+    font-size: 40px;
+}
+.intro p{
+    font-weight: 300;
+    padding-right: 10%;
+}
+.intro .img{
+    width: 47.5%
+}/* done */
+
+/* goal */
+.goal {
+    margin: 5% 0 8% 0;
+    padding: 4% 0
+}
+.goal li, .goal span, .goal h3{
+    display: inline-block
+}
+.goal li{
+    width: 20%;
+    vertical-align: top;
+    margin-right: 4.5%;
+}
+.goal span{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.goal h3{
+    font-weight:500;
+    margin: 0 5%;
+}  /* done */
+
+/* services */
+.services__content{
+    display: inline-block;
+    background-color: #002146;
+    color: white;
+    padding: 3%;
+    margin: 0 2.5% 2.5% 0;
+    width: 22.2%;
+    text-align: center;
+    border-radius: 2%;
+    line-height: 400%
+}
+
+.services i{
+    font-size: 300%;
+} 
+.services p{
+    font-size: 140%
+}/* done */
+    
+
+/* posts*/
+.posts{
+    padding: 7% 0;
+    margin-top: 7%;
+}
+.posts a{
+    color: black
+}
+.posts hr{
+    border: 1px solid rgb(235, 231, 231)
+}
+.posts h1{
+    margin-bottom: 7%
+}
+
+.posts h3, .posts p{
+    padding-bottom: 3%;
+}
+.post__1 span{
+    font-weight: 500;
+    color:rgb(135, 135, 135)
+}
+.post__2 span{
+    font-weight: 600;
+    color: #002146 
+}
+.posts__button {
+    text-align: right
+}
+.post__content {
+    padding: 0 5% 0 4%;
+    margin-bottom: 5%;
+    
+ }
+ .post__block {
+     padding-top: 5%;
+ }
+.posts .display__1{
+    padding: 0 5% 5% 0
+}
+.post__1{
+    width: 38%;
+    margin: 0 4% 5% 9.6%;
+}
+
+.post__2 {
+    width: 36%;
+    vertical-align: top;
+}
+.post__2 .bg__white {
+    padding: 4%;
+    margin-bottom: 5%
+}/* done */
+
+/* footer */
+.footer {
+    color: white;
+}
+.footer__padding--1 {
+    padding-left: 9%
+}
+.footer__padding--2{
+    padding-left: 25%
+}
+.footer ul{
+    list-style: none;
+}
+.footer h2{
+    padding-bottom: 8%
+}
+.footer hr {
+    border: 1px solid rgb(61, 60, 60);
+    margin: 3% 0;
+}
+.footer .width__80 {
+    padding: 4% 0 3% 0;
+}
+.footer__2 {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    padding-right: 3%;
+}
+.footer p span{
+    color: rgb(203, 199, 199);
+}
+.footer__model {
+    padding-left: 0;
+}
+.footer__model li{
+    line-height: 35px;
+}
+.footer__model i{
+    padding-right: 10px;
+    color: #e9c93d;
+}
+.footer a {
+    text-decoration: none;
+    color: white;
+} /* end */
