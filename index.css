@@ -28,26 +28,26 @@
 
 
 /* set width's element */
-.width__100 {
+.width--100 {
     width: 100%
 }
-.width__90{
+.width--90{
     width:90%;
 }
-.width__80 {
+.width--80 {
     width: 80%;
     margin: auto
 }
-.width__50{
+.width--50{
     width: 50%
 }
-.width__40 {
+.width--40 {
     width: 40%
 }
-.width__35 {
+.width--35 {
     width: 35%;
 }
-.width__25{
+.width--25{
     width: 25%
 }/* done */
 
@@ -60,27 +60,27 @@
 }/* done */
 
 /* set background color */
-.bg__white {
+.bg--white {
     background-color: white
 }
-.bg__gray {
+.bg--gray {
     background-color: rgb(246,246,246)
 }
-.bg__green{
+.bg--green{
     background-color:#002146; 
 }
-.bg__yellow{
+.bg--yellow{
     background-color: #e9c93d;
 }
 
 /* set border radius */
-.border__50 {
+.border--50 {
     border-radius: 50%
 }
-.border__5 {
+.border--5 {
     border-radius: 5%
 }
-.border__3 {
+.border--3 {
     border-radius: 3%
 }/* done */
 
@@ -264,7 +264,7 @@
     width: 36%;
     vertical-align: top;
 }
-.post__2 .bg__white {
+.post__2 .bg--white {
     padding: 4%;
     margin-bottom: 5%
 }/* done */
@@ -289,7 +289,7 @@
     border: 1px solid rgb(61, 60, 60);
     margin: 3% 0;
 }
-.footer .width__80 {
+.footer .width--80 {
     padding: 4% 0 3% 0;
 }
 .footer__2 {
