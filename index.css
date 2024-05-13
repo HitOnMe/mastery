@@ -1,14 +1,14 @@
 
-/* set body's styles */
-* {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-variation-settings:
-    "wdth" 100;
+/* set html tag's styles */
+* {font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-variation-settings:
+      "wdth" 100;
+    line-height: 120%;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    line-height: 120%
+    
 } /* done */
 
 /* clear function */
@@ -124,7 +124,6 @@
     color: #002146
 }
 .header i{
-    float: left;
     color: #ceb441;
     font-size: 15px;
     padding: 1% 1%;
@@ -141,7 +140,7 @@
     padding: 1% 0.5%;
 }
 .head li{
-    display: inline-block;
+    display: inline;
     margin: 0 15px;
     
 }
@@ -170,6 +169,7 @@
 .intro .img{
     width: 47.5%
 }/* done */
+/* carousel */
 
 /* goal */
 .goal {
@@ -196,7 +196,6 @@
 
 /* services */
 .services__content{
-    display: inline-block;
     background-color: #002146;
     color: white;
     padding: 3%;
