@@ -1,15 +1,23 @@
 
-/* set html tag's styles */
-* { font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-variation-settings:
-      "wdth" 100;
-    line-height: 120%;
+/* set website tag's styles */
+* { 
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
 } /* done */
+
+/* html */
+html {
+    font-size: 15px;
+}
+/* done */
+
+body{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-variation-settings:
+      "wdth" 100;
+}
 
 /* clear function */
 .clear {
@@ -107,8 +115,7 @@
 }
 .month{
     font-weight: bold;
-    padding-top: 0px;
-    padding-bottom: 10px;
+    padding: 10px 0;
 }
 .year {
     background-color:#002146;
@@ -123,18 +130,21 @@
     padding-top: 1%;
     color: #002146
 }
-.header i{
-    
-    color: #ceb441;
-    font-size: 15px;
-    padding: 1% 1%;
+.header__symbol {
+    float: left;
+    line-height: 40px;
+    background-color: #002146;
+    color:#e9c93d;
+    padding: 0 12px;
+    margin: 0 1%;
+    border-radius: 50%
 }
-.header span{
-    font-size: 30px;
-    padding: 0 1%; 
-    font-weight: bold;
+.header__content {
+    font-family: "Reddit Sans", sans-serif;
+    display: inline-block;
+    font-size: 35px;
+    font-weight: bold
 }
-
 .head ul{
     list-style: none; 
     margin: 0 0 1%;
@@ -162,6 +172,7 @@
 .intro h2{
     padding-bottom: 5%;
     font-size: 40px;
+    line-height: 50px
 }
 .intro p{
     font-weight: 300;
@@ -241,7 +252,7 @@
     font-weight: 600;
     color: #002146 
 }
-.posts__button {
+.post__button {
     text-align: right
 }
 .post__content {
