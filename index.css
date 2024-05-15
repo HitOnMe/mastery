@@ -1,6 +1,6 @@
 
 /* set html tag's styles */
-* {font-family: "Open Sans", sans-serif;
+* { font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     font-variation-settings:
       "wdth" 100;
@@ -124,6 +124,7 @@
     color: #002146
 }
 .header i{
+    
     color: #ceb441;
     font-size: 15px;
     padding: 1% 1%;
